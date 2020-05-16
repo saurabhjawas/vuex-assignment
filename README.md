@@ -1,4 +1,12 @@
-// This project is ceated as the sollution to below problem statement. Please refer package.json to see how to run
+// This project is ceated as the sollution to below problem statement. 
+
+// Please use "npm run serve" to start
+
+// the data for this chart is available in ./src/report_data.json
+// this data will be saved in vuex store state in ./src/store/index.js
+// if we were getting data from REST API, we can dsipatch 
+//  a vuex action (the beforeCreate hook of App or ChartViewer component)
+//  to fetch and save data (using mutations) in vuex store 
 
 # Problem statement
 
